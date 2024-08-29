@@ -1,5 +1,5 @@
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 /*encabezado*/
@@ -31,13 +31,13 @@ header#cabecera{
     height: 45px;
     width: 45px;
 }
-div#logos{
+div#logo{
     float: left;
-    height: 50px;
+    height: 85px;
     margin-top: 25px;
     width: 188px;
 }
-/*menú*/
+/*menu*/
 nav{
     background: rgb(61, 152, 175);
     display: block;
@@ -55,18 +55,18 @@ nav li{
     float: left;
 }
 nav a{
-    color: rgb(10, 24, 36);
+    color:rgb(10, 24, 36);
     display: block;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 19px;
     height: 25px;
     padding: 10px;
     text-decoration: none;
 }
-nav a:hover,a:focus{
-    background:  rgb(255, 255, 255);
-    color:black;
+nav a:hover, a:focus{
+    background: rgb(255, 255, 255);
+    color: black;
 }
 #slider{
     display: block;
@@ -90,6 +90,17 @@ section#contenido{
     margin-top: 10px;
     width: 700px;
     background: rgb(66, 123, 177)
+
+}
+.info{
+    background:rgb(44, 53, 78);
+    border:1px solid chocolate;
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+    float: left;
+    padding: 0;
+    width: 700px;
 }
 aside{
     display: block;
@@ -98,12 +109,27 @@ aside{
     margin-bottom: 10px;
     margin-top: 10px;
     width: 230px;
-    background: rgb(127, 168, 179);
+    background: rgb(17, 190, 209);
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #d81143;
+    padding: 10px;
+}
+h3{
+    background: #3a37f7;
+    color: #fff;
+    vertical-align: middle;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 35px;
+    text-align: center;
 }
 h4{
-background:rgb(44, 53, 78);
-color: chocolate;
-vertical-align: center;
+background: #bab7b2;
+vertical-align: middle;
 padding-top: 15px;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 16px;
@@ -114,46 +140,33 @@ h5{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     margin-top: 10px;
+
 }
 p{
-    color:rgb(48, 74, 75);
+    color: #31313F;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
-h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 28px;
-    color: black;
-    padding: 10px;
-}
-h3{
-    background: rgb(39, 55, 85);
-    color: aliceblue;
-    vertical-align: middle;
-    padding-top: 15px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 16px;
-    height: 35px;
-    text-align: center;
-}
-.Info p{
-    color: rgb(143, 174, 212);
-    font-family: monospace;
+
+
+.info p{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     padding: 10px;
 }
 #limpiar{
     clear: both;
 }
-.Info img{
+.info img{
     display: block;
     float: left;
     margin: 10px;
 }
-.Info p{
+.info p{
     display: block;
     width: 460px;
-    float: left;
+    float: right;
 }
 .comoempresa{
     width: 700px;
@@ -163,14 +176,13 @@ h3{
 h6{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    color: black;
+    color:#32323f;
 }
-.Color{
-    background: rgb(6, 34, 73);
+.color{
+    background-color: #A8A8B7;
 }
 section#inferior{
-    background: rgb(32, 88, 128);
-    hyphens: auto;
+    background:rgb(10, 55, 177);
 }
 footer{
     display: block;
@@ -178,23 +190,36 @@ footer{
     height: 130px;
     width: 940px;
 }
-
-#ifcontacto{
-    color: rgb(255, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#infocontacto{
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 13px;
     font-weight: bold;
     display: block;
     float: left;
-    margin-top: 15px;
+    margin-top: 35px;
+    text-align: left;
+    width: 300px;
+}
+
+#powered{
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: bold;
+display: block;
+float: right;
+margin-top: 35px;
+text-align: right;
+width: 300px;
 }
 h1{
-    color: aliceblue;
+    color: #858593;
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
-    margin: 10px;
     font-weight: bold;
+    margin-left: 10px;
 }
 #proyectos{
     display: block;
@@ -212,21 +237,20 @@ h1{
     margin-top: 10px;
     margin-right: 10px;
     width: 358px;
-
 }
 .proyectosm{
     display: inline-block;
     width: 230px;
-
 }
-.proyectos p{
-    width: 260px;
+.proyectosm p{
+    width: 210px;
 }
-.proyectos h6{
+.proyectosm h6{
     margin-left: 10px;
 }
+
 .datacontacto p{
-    padding: 0px;
+    padding:0px ;
     margin: 10px;
     width: 675px;
 }
@@ -236,30 +260,29 @@ form{
     width: 565px;
 }
 label{
-    color: rgb(255, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #040404;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-
 }
 input{
     width: 480px;
     height: 20px;
-    border: 2px burlywood; 
+    border: 2px solid #060606;
     margin-top: 5px;
     font-size: 14px;
 }
 textarea{
-    width: 475px;
+    width: 480px;
     height: 142px;
-    border: 2px aqua;
+    border: 2px solid #101010fc;
     margin-top: 5px;
     font-size: 14px;
 }
 #boton{
-    background: antiquewhite;
-    border-color: beige;
+    background: #f5f5f5;
+    border-color: #CCC;
     border-radius: 5px;
     height: 31px;
     width: 91px;
-    text-align: center;
+ 
 }
